@@ -23,7 +23,7 @@ const AccordionCompoent = () => {
         Accordion Section
       </h1>
       {accordions.map((e) => (
-        <Accordion type="single" collapsible className="w-full ">
+        <Accordion type="single" collapsible className="w-full " key={e.q}>
           <AccordionItem value="item-1" className="">
             <AccordionTrigger className="text-xl">{e.q}</AccordionTrigger>
             <AccordionContent className="text-md">{e.a}</AccordionContent>
