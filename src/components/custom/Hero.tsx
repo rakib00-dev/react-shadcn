@@ -13,10 +13,12 @@ export default function Hero() {
         </p>
         <div className="mt-6 flex justify-center gap-4">
           <a href="/get-started">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg" className="cursor-pointer">
+              Get Started
+            </Button>
           </a>
           <a href="/learn-more">
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" className="cursor-pointer">
               Learn More
             </Button>
           </a>
