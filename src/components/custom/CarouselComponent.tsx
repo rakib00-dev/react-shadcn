@@ -26,7 +26,7 @@ const CarouselComponent = () => {
                 src="https://wallpaperswide.com/download/green_nature-wallpaper-1600x1200.jpg"
                 alt=""
                 loading="lazy"
-                className="w-full h-svh"
+                className="w-full h-svh rounded-md"
               />
             </CarouselItem>
             <CarouselItem className="w-[20px] h-[20px]">
@@ -35,7 +35,7 @@ const CarouselComponent = () => {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9VdqXP-OFKmFFUscr10_51gtyLPYvlJREtg&s"
                 alt=""
                 loading="lazy"
-                className="w-full h-svh"
+                className="w-full h-svh rounded-md"
               />
             </CarouselItem>
             <CarouselItem className="w-[20px] h-[20px]">
@@ -44,7 +44,7 @@ const CarouselComponent = () => {
                 src="https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_4:3,w_3840,g_auto/f_auto/q_auto/v1/shutterstock_2475547453_1_arkhzn?_a=BAVAZGE70"
                 alt=""
                 loading="lazy"
-                className="w-full h-svh"
+                className="w-full h-svh rounded-md"
               />
             </CarouselItem>
           </CarouselContent>
